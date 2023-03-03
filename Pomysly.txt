@@ -1,0 +1,30 @@
+#Pomysly
+1. Bot na allegro
+    - licytuje przedmitoy wystawione na allegro
+    - robi to o danej godzinie
+    - robi to z dana kwota lub z minimalnym przebiciem
+    - utowrzyc strone internetowa za pomoca ktorej bedziemy sterowac programem
+    - utworzyc na tej system logowania i sesji
+    - utworzyc prosta baze danych najlepiej chyba we flasku na przechowywanie danych do logowania
+    - bot dzialalby na serwerze
+    - kazdy uzytkonwik bylby w stanie licytowac nawet kilka na raz licytacji
+    - ladna strona przejrzysta dzialajaca
+    - wystawiona na serwerze zewnatrznym
+    - wszysktie dane bylyby bezpiecznie przechowywane w bazie danych
+2. Bot dla streetwearowycow
+    - w sumie to samo co bot na allegro ale dzialajacy na stronach do bucikow itp
+    - mozna w sumie tez polaczyc w sobie te dwa Pomysly
+    - pozniej wykonac strone z roznymi botami i kazdy 
+3. Kosztorys zycia na miesiac
+    - wpisuje sie samemu kwoty z paragonu i katergorie wybiera
+    - program sam oblicza co i jak kiedy na co wydales ile
+    - rapotyuje miesciecznie co i jak moze w txt albo kiedys inaczje
+    - automatyzacja kategorii, uzytkoniwk wpisuje tylko ile i co 
+    - wczytywanie zdjecia paragonu i interpereowanie przez program co jest wyswietlane na nim
+    i z tego brac dane do wczytywania i ceny, przez co uzytkownik nie musi nic w sumie robic oprocz 
+    zdjecia i przeslania go do aplikacji
+    - utworzenie ladnej aplikacji do tego moze byc na telefon zeby latgwiej bylo robic zdjecia 
+    z poziomu aplikacji i od razu dawaloby nam to wynik jaki chcemy uzyskac
+    - wyglad, estetyka itp
+4. Menedzer hasel
+    
