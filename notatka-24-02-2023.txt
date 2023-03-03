@@ -1,0 +1,20 @@
+#menedzer hasel
+#pygame gra
+#strona internetowa django
+#projekt sklepu
+#bot do allegro czy cos
+#maja byc na githubie i wyslac link
+#maly film na yt z prezentacja jak wyglada gotowy produkt
+#na raportach trzeba byc
+#przyjsc pojawic sie opisac co sie zrobilo czego nie dalsze plany itd
+#indywidualny
+#raport koncowy prezentacja projektu
+#plan pracy przygotowac
+#notatki robic najlepiej
+#portfel miesieczny z paragonow
+#notatki 
+#to do list
+nie moze byc za maly, skryptowy, na caly semestr
+#aplikcaja na telefon jakas 
+łota siet co sie tu dzieje
+#waluty kryptowaluty i wgl co sie dzieje ale co jeszcze i dane z neta pobieraloby i to byloby na stronie internetej wyhostowane
