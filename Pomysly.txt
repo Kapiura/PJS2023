@@ -1,30 +1,33 @@
-#Pomysly
-1. Bot na allegro
-    - licytuje przedmitoy wystawione na allegro
-    - robi to o danej godzinie
-    - robi to z dana kwota lub z minimalnym przebiciem
-    - utowrzyc strone internetowa za pomoca ktorej bedziemy sterowac programem
-    - utworzyc na tej system logowania i sesji
-    - utworzyc prosta baze danych najlepiej chyba we flasku na przechowywanie danych do logowania
-    - bot dzialalby na serwerze
-    - kazdy uzytkonwik bylby w stanie licytowac nawet kilka na raz licytacji
-    - ladna strona przejrzysta dzialajaca
-    - wystawiona na serwerze zewnatrznym
-    - wszysktie dane bylyby bezpiecznie przechowywane w bazie danych
-2. Bot dla streetwearowycow
-    - w sumie to samo co bot na allegro ale dzialajacy na stronach do bucikow itp
-    - mozna w sumie tez polaczyc w sobie te dwa Pomysly
-    - pozniej wykonac strone z roznymi botami i kazdy 
-3. Kosztorys zycia na miesiac
-    - wpisuje sie samemu kwoty z paragonu i katergorie wybiera
-    - program sam oblicza co i jak kiedy na co wydales ile
-    - rapotyuje miesciecznie co i jak moze w txt albo kiedys inaczje
-    - automatyzacja kategorii, uzytkoniwk wpisuje tylko ile i co 
-    - wczytywanie zdjecia paragonu i interpereowanie przez program co jest wyswietlane na nim
-    i z tego brac dane do wczytywania i ceny, przez co uzytkownik nie musi nic w sumie robic oprocz 
-    zdjecia i przeslania go do aplikacji
-    - utworzenie ladnej aplikacji do tego moze byc na telefon zeby latgwiej bylo robic zdjecia 
-    z poziomu aplikacji i od razu dawaloby nam to wynik jaki chcemy uzyskac
-    - wyglad, estetyka itp
-4. Menedzer hasel
-    
+Projekt skryptowy:
+    Pomysl:
+        Twitter bot, widzet linux lub strona internetowa albo wszystko na raz i wtedy na serwer to wstawic:
+            Bot:
+                - napisany w python - jezyk skryptowy
+                - opieralby sie na api z Twittera i dawal mozliwosc tweetowania kilka razy dziennie tweetow automatycznie bez ingerencji uzytkownika
+                - na sam poczatek tweety mialby zawierac schludnie wypisane jakosc powietrza w kilku najwiekszych miastach Polski
+                - nastepenie dodanie do tego malego kalendarzyka przed tym w postaci: dnia, miesiaca, roku, znaku zodiaku przypisanego do danej pory, imieniny, swieta
+                - dodanie ostrzezen w soboty czy jutro czyli w niedziele jest handlowa czy nie
+                - dodanie waznych dat np bitw waznych dla Polski itp
+                - godziny pobierania oraz tweetowania jakosci powietrza bylyby o 6:00, 12:00, 20:00
+                - kalendarzyk powinnen sie wyswietlac jako osobny tweet
+                - czyli automatycznie o danych porach powinien sam tweetowac 4 posty dziennie
+                - dodanie rowniez do jakosci powietrza ogolnej jakosci pogody (temperatura, zachmurzenie, opady, wiatr)
+            Widzet:
+                - Posiadalby te same funkcje co bot tylko jest na pewno mozliwy do wykonania, wszystko zalezy od decyzji twittera na danie mi dostepu do stowrzenia aplikacji i uzywania ich api
+
+    Plan:
+        - wybranie kilku najwiekszych miast w Polsce
+        - pobieranie z api open weather danych na temat tych miast
+        - proste wyswietlanie tych informacji w terminalu
+        - pisanie testowych tweetow za pomoca api
+        - tweety pisane o konkretnych godzinach
+        - edycja testowych tweetow, zeby ich tresc dotyczyla pobranych z api open weather informacji o jakosci powietrza w wybranych miastach
+        - wzbogacenie pobieranie danych o temperature, zachmurzenie, opady, wiatr 
+        - stworzenie bazy danych lub pobieranie z internetu danych o:
+        dniu, miesiacu, roku, znaku zodiaku, wschod ,zachod slonca oraz ksiezyca, imieniny, swieta
+        - dodanie niedziel handlowych i niehandlowych oraz informowanie o nich w tweetach oraz widzecie 
+        - 5 dni albo iles przed swietem rowniez informowalby np. "5 dni do dnia dziecka"
+        - dodanie ciekawych wydarzen ale to juz w bazie danych
+    Mozliwe updaty ale zalezy od checi i mozliwosci:
+        - mozliwosc dodania do widzetu czyis urodzin i bylyby wystwielane tam samo jak imieniny oraz kilka dni przed jak przed swietami
+        - jak cos wymysle to jeszcze dodam
